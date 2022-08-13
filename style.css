@@ -1,0 +1,187 @@
+*::before,
+*::after,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+html{
+    overflow-x: hidden;
+    font-size: 62.5%;
+
+}
+body{
+    overflow-x: hidden;
+    font-size: 1.8rem;
+    background-color: #013243;
+    color: #a9bdc6;
+    min-height: 100vh;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    color: #32f5c8;
+}
+header{
+    padding-top: 1em;
+}
+
+section, footer{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+button{
+    border: none;
+    outline: none;
+}
+.absolute-img img{
+    position: absolute;
+    z-index: -2;
+}
+.ms-1{
+    width: 150px;
+    bottom: .5em;
+    right: .4em;
+}
+.ms-2{
+    top: 5.5em;
+    width: 150px;
+    right: .4em;
+}
+.ms-3{
+    top: 6.5em;
+    left: 2em;
+    width: 100px;
+}
+.web-svg{
+    display: none;
+}
+.main-header {
+    margin-top: 15rem;
+    font-size: 5rem;
+    /* font-weight: 600; */
+    font-family: 'Sen', sans-serif;
+}
+
+.paragraph-1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 400px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+#launchBtn{
+    background-color: #32f5c8;
+    color: #013243;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: .8rem;
+    padding: 1em;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 25vh;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    margin-bottom: 1em;
+}
+.mh-2{
+    display: none;
+}
+@media (min-width: 768px){
+    header{
+        padding-top: 2em;
+    }
+    .main-header{
+        font-size: 7rem;
+        font-weight: 600;
+    }
+    .ms-1{
+        width: 100px;
+        top: 15em;
+        right: 3em;
+    }
+    .ms-2{
+        top: 1.5em;
+        width: 150px;
+        right: 2em;
+    }
+    .ms-3{
+        top: 5em;
+        left: 2em;
+    }
+    .web-svg{
+        display: block;
+    }
+    .ws-1{
+        bottom: -8em;
+        right: 3em;
+    }
+    .ws-2{
+        top: 10em;
+        right: 10em;
+        width: 100px;
+    }
+    .mh-2{
+        display: none;
+    }
+}
+@media(min-width: 900px){
+    section, footer{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    header{
+        padding-top: 0;
+    }
+    .main-header{
+        margin-top: 7rem;
+        font-size: 14.5rem;
+        max-width: 800px;
+        font-weight: 600;
+        line-height: .9;
+    }
+    footer{
+        margin-top: 10vh;
+    }
+    .ws-1{
+        bottom: -2em;
+        right: 3em;
+    }
+    .main-header{
+        display: none;
+    }
+    
+    .mh-2{
+        display: block;
+    }
+    .ms-1{
+        top: 16.5em;
+        right: 8.2em;
+    }
+    .ms-2{
+        top: 2em;
+        right: 9em;
+    }
+    .ms-3{
+        top: 4.5em;
+        left: 3.7em;
+    }
+    .ws-1{
+        right: 6em;
+    }
+    .ws-2{
+        top: 4em;
+        right: 20em;
+    }
+}
